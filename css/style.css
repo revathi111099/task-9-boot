@@ -210,7 +210,22 @@ p.card-para{
 .media{
 	background-color:rgb(238 240 239);
 }
+.copyright a{
+	color:rgb(95 207 128);
+}
+.copyright a:hover{
+	color:rgb(58, 193, 98);
+}
 a.text-decoration-none {
     top: 40px;
     left: 94px;
+}
+.socialmedia {
+    text-align: right;
+}
+.socialmedia a{
+	background-color:rgb(95 207 128);
+}
+.socialmedia a:hover{
+	background-color:rgb(58, 193, 98);
 }
