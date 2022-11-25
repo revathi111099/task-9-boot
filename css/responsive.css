@@ -1,0 +1,119 @@
+/*----------------phone device------------------*/
+@media(max-width:576px){
+	.d-none{
+		display:none!important;
+	}
+	.banner{
+		background-position: center;
+		height: 610px!important;
+		padding-top: 90px;
+    }
+	.banner-content h2 {
+        font-size: 32px!important;
+    }
+	.banner-content p {
+        font-size: 18px!important;
+    }
+	.direct{ 
+	   flex-direction:column-reverse!important;
+	}
+	.word-content h2 {
+        padding-top: 20px;
+    }
+	.ico-box {
+        text-align: center;
+    }
+	.ico-box i {
+        margin-left:0px!important;
+	}
+	.news {
+        padding-bottom: 30px;
+    }
+	.socialmedia {
+        text-align: center!important;
+		padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+/*----------------tabs device------------------*/
+@media (min-width:768px) and (max-width:922px){
+	.d-none{
+		display:none!important;
+	}
+	.butt1 {
+        margin-left: 356px;
+    }
+	.banner{
+		background-position: center;
+		height: 964px!important;
+    }
+	.banner-content {
+        padding-top: 416px!important;
+    }
+	.banner-content h2 {
+        font-size: 30px!important;
+    }
+	.banner-content p {
+        font-size: 20px!important;
+    }
+	.direct{ 
+	   flex-direction:column-reverse!important;
+	}
+	.word-content h2 {
+        padding-top: 20px;
+    }
+	.ico-box {
+        text-align: center;
+    }
+	.ico-box i {
+        margin-left:0px!important;
+	}
+	.card{
+		margin-top: 20px;
+		min-height: 518px;
+	}
+	.socialmedia {
+        margin-top: -34px;
+        padding-bottom: 40px;
+    }
+}
+/*----------------desktop device------------------*/
+@media (min-width:992px) and (max-width:1200px){
+	.butt1{
+		display:none;
+	}
+	.d-none{
+		display:block!important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+        font-size: 12px!important;
+    }
+	.direct{ 
+	    flex-direction:unset!important;
+	}
+	.ico-box {
+        width: 592px;
+        text-align: center;
+    }
+	.ico-box i {
+        margin-left:0px!important;
+	}
+	.card{
+		min-height: 518px;
+	}
+	.design {
+        padding-bottom: 20px;
+    }
+}
+/*----------------larger device------------------*/
+@media (min-width:1200px) and (max-width:1400px){
+	.butt1{
+		display:none;
+	}
+	.d-none{
+		display:block!important;
+	}
+	.design {
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,130 @@
+/*--------------header section start---------------*/ 
+.navbar-light .logo{
+    color: rgb(95 207 128);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(95 207 128);
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:rgb(95 207 128);
+}
+.btn{
+	border:1px solid rgb(95 207 128) ;
+	background-color:rgb(95 207 128);
+}
+a.btn:hover{
+	background-color:rgb(58 193 98);
+	color:white;
+}
+.btn:focus{
+	box-shadow:none;
+}
+/*----------------img-content start----------------*/
+/*---------------price start--------------------*/
+.pricing{
+	background-color:rgb(95 207 128);
+}
+.title{
+	background-color:rgb(248, 248, 248);
+	color:rgb(119 119 119);
+}
+.zero{
+	color:rgb(95 207 128);
+	font-family:"",san-serif;
+}
+.word{
+	color:rgb(186 186 186);
+	font-weight:normal;
+}
+.up{
+    position: relative!important;
+    top: -18px;
+	left: -2px;
+	color:rgb(95 207 128);
+}
+.strike{
+	color:rgb(204 204 204);
+}
+.btn-1{
+	border:1px solid rgb(95 207 128) ;
+	background-color:rgb(95 207 128);
+}
+.bg{
+	background-color:rgb(248, 248, 248);
+}
+.title-active{
+	background-color:rgb(95 207 128);
+	color:white;
+}
+span.position-absolute{
+    transform: rotate(42deg);
+    width: 76%;
+    top: 4%;
+    right: -23%;
+    background-color:rgb(95 207 128);
+    overflow: hidden;
+}
+/*---------------price end------------------------*/
+/*---------------details start---------------------*/
+.details {
+   background-color:rgb(249, 250, 249); 
+}
+.add{
+	color:black;
+	height:280px;
+}
+.link1 i{
+	color:rgb(95 207 128);
+}
+.link1 a{
+	color:rgb(119 119 119);
+}
+.link1 a:hover{
+	color:rgb(95 207 128);
+}
+.news form {
+    overflow:hidden;
+    padding-right:106px;
+    margin-right:21px;
+	border: 1px solid rgb(224 229 226);
+}
+.news input {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: 1px solid rgb(255 255 255);
+}
+.news button {
+    right:0;
+    top:0;
+    background-color:rgb(95 207 128);
+    color:white;
+    cursor:pointer;
+    border: 1px solid rgb(95 207 128);
+}
+.news button:hover{
+	background-color:rgb(58, 193, 98);
+}
+/*---------------details ends----------------------*/
+/*---------------media start---------------------*/
+.media{
+	background-color:rgb(238 240 239);
+}
+.copyright a{
+	color:rgb(95 207 128);
+}
+.copyright a:hover{
+	color:rgb(58, 193, 98);
+}
+a.text-decoration-none {
+    top: 40px;
+    left: 94px;
+}
+.socialmedia {
+    text-align: right;
+}
+.socialmedia a{
+	background-color:rgb(95 207 128);
+}
+.socialmedia a:hover{
+	background-color:rgb(58, 193, 98);
+}

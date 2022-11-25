@@ -1,0 +1,165 @@
+/*--------------header section start---------------*/ 
+.navbar-light .logo{
+    color: rgb(95 207 128);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(95 207 128);
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:rgb(95 207 128);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(55 66 59);
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn{
+	border:1px solid rgb(95 207 128) ;
+	background-color:rgb(95 207 128);
+}
+a.btn:hover{
+	background-color:rgb(58 193 98);
+	color:white;
+}
+.btn:focus{
+	box-shadow:none;
+}
+/*----------------img-content start----------------*/
+.about{
+    background-color:rgb(95 207 128);
+}
+/*----------------img-content end----------------*/
+/*---------------number start--------------------*/
+.number-section{
+	background-color:rgb(245 245 245);
+}
+.numbers-box span{
+	color:rgb(81 199 81/78%);
+	font-family:"Poppins",san-serif;
+}
+/*---------------number end--------------------*/
+/*---------------test start--------------------*/
+.test-heading h6{
+	color:rgb(170 170 170);
+}
+.lines{
+	background-color: lightgreen;
+    height: 1px;
+    width: 160px;
+    position: relative;
+    top: -26px;
+    left: 128px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width:85px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:rgb(95 207 128);
+}
+.owl-theme .owl-dots .owl-dot span {
+    background-color: white;
+    border: 1px solid rgb(95 207 128);
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    margin-bottom: 40px;
+}
+.card{
+	margin-left:68px;
+}
+.card-body-1 {
+    position: relative;
+    padding-left: 70px;
+    padding-top: 44px;
+    padding-right: 20px;
+}
+.card-body-1 img{
+	width:85px;
+	border-radius:6px;
+}
+.card-body-2 {
+    position: absolute;
+    top: 38px;
+    left: -42px;
+}
+.card i{
+	color:rgb(193 236 206)!important;
+}
+.card i:hover{
+	color:none;
+}
+.card-text-1 i:first-child{
+    display:inline-block;
+    transform:translateY(-10px);
+}	
+.card-text-1 i:last-child{
+	display:inline-block;
+    transform:translateY(10px);
+}
+.card-text-1 {
+	color: rgb(68 68 68);
+}
+/*---------------test end---------------------*/
+/*---------------details start---------------------*/
+.details {
+   background-color:rgb(249, 250, 249); 
+}
+.add{
+	color:black;
+	height:280px;
+}
+.link1 i{
+	color:rgb(95 207 128);
+}
+.link1 a{
+	color:rgb(119 119 119);
+}
+.link1 a:hover{
+	color:rgb(95 207 128);
+}
+.news form {
+    overflow:hidden;
+    padding-right:106px;
+    margin-right:21px;
+	border: 1px solid rgb(224 229 226);
+}
+.news input {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: 1px solid rgb(255 255 255);
+}
+.news button {
+    right:0;
+    top:0;
+    background-color:rgb(95 207 128);
+    color:white;
+    cursor:pointer;
+    border: 1px solid rgb(95 207 128);
+}
+.news button:hover{
+	background-color:rgb(58, 193, 98);
+}
+/*---------------details ends----------------------*/
+/*---------------media start---------------------*/
+.media{
+	background-color:rgb(238 240 239);
+}
+.copyright a{
+	color:rgb(95 207 128);
+}
+.copyright a:hover{
+	color:rgb(58, 193, 98);
+}
+a.text-decoration-none {
+    top: 40px;
+    left: 94px;
+}
+.socialmedia {
+    text-align:right;
+}
+.socialmedia a{
+	background-color:rgb(95 207 128);
+}
+.socialmedia a:hover{
+	background-color:rgb(58, 193, 98);
+}

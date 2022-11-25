@@ -1,7 +1,90 @@
 /*--------------header section start---------------*/ 
-.logo a{
-	font-weight:700;
-    color: rgb(58 222 53);
+.navbar-light .logo{
+    color: rgb(95 207 128);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(95 207 128);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(55 66 59);
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:rgb(95 207 128);
+}
+.dropdown{
+	position:relative;
+} 
+.dropdown-menu{
+	position:absolute;
+	left:0;
+	top:90%;
+	min-width:190px;
+	background-color:white;
+	box-shadow:1px -2px 18px -6px #ccc;
+	border-radius:10px;
+	text-align:left;
+	transform:translateY(20px);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.5s ease;
+}
+.dropdown:hover .dropdown-menu{
+	transform:translateY(0);
+	opacity:1;
+	visibility:visible;
+}
+.dropdown-menu li{
+	display:block;
+}
+.dropdown ul a:hover{
+	color:rgb(144 238 144);
+}
+.dropdown-menu li a{
+	text-align:left;
+	color:black;
+	font-size:14px;
+	display:block;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:15px;
+	padding-right:15px;
+	font-family:"";
+}
+.dropdown-sub{
+	position:relative;
+}
+.dropdown-nav-sub{
+	position:absolute;
+	top:0;
+	left:100%;
+	min-width:100%;
+	background-color:white;
+	box-shadow:1px -2px 18px -6px #ccc;
+	border-radius:10px;
+	text-align:left;
+	transform:translateX(-15px);
+	font-family:"";
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.5s ease;
+}
+.dropdown-sub:hover .dropdown-nav-sub{
+	transform:translateX(0px);
+	opacity:1;
+	visibility:visible;
+}
+.btn{
+	border:1px solid rgb(95 207 128) ;
+	background-color:rgb(95 207 128);
+}
+a.btn:hover{
+	background-color:rgb(58 193 98);
+	color:white;
+}
+.btn:focus{
+	box-shadow:none;
 }
 /*------------header section end------------------*/
 /*------------banner section start-----------------*/
@@ -9,6 +92,7 @@
     background-image:linear-gradient(180deg, rgba(0, 0, 0, 40%), rgba(0, 0, 0, 40%)),url(../web-assets/hero-bg.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-attachment:fixed;
 	height:474px;
 }
 .banner-content{
@@ -129,6 +213,20 @@ i.icofont-finger-print {
 .symbol {
     padding-left: 116px;
 }
+.symbol-1 {
+    padding-left: 186px;
+	font-family:"";
+}
+.symbol-2 {
+    padding-left: 200px;
+    font-family: "";
+}
+.ico-img{
+    padding-left: 100px;
+}
+.ico-img-1{
+    padding-left: 132px;
+}
 .symbol span {
 	font-family:"Poppins",sans-serif;
 }
@@ -210,15 +308,14 @@ p.card-para{
 .media{
 	background-color:rgb(238 240 239);
 }
-.copyright a{
+.design p{
+	margin-bottom:0px;
+}
+.design a{
 	color:rgb(95 207 128);
 }
-.copyright a:hover{
+.design a:hover{
 	color:rgb(58, 193, 98);
-}
-a.text-decoration-none {
-    top: 40px;
-    left: 94px;
 }
 .socialmedia {
     text-align: right;

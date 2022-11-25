@@ -4,62 +4,77 @@
     <title>website 2(bootstrap)</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="icons/icofont.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">   
 </head>    
 <body>
-    <!----------------header section starts--------------->
-    <header class="header-info">
-        <div class="container"> 
-		    <div class="row">
-			    <div class="col-lg-3 pt-2 mb-2 fs-2">
-			        <div class="logo">
-					    <a href="index.html" class="text-decoration-none">
-					        MENTOR
-						</a>
-                    </div>
-                </div>					
-			    <div class="col-lg-9">
-					<!--<div class="logo-header">
-					    <ul class="nav-bar">
-						    <li><a href="index.html"class="nav-list""Home">Home</a></li>
-							<li><a href="#"class="nav-list">About</a></li>
-							<li><a href="#"class="nav-list">Courses</a></li>
-							<li><a href="#"class="nav-list">Trainers</a></li>
-							<li><a href="#"class="nav-list">Events</a></li>
-							<li><a href="#"class="nav-list">Pricing</a></li>
-						    <li class="dropdown">
-							    <a href="#"class="nav-list">Drop Down<i class="icofont-thin-down"></i></a>
-								<ul class="dropdown-nav">
-								    <li><a href="#">Dropdown1</a></li>
+<!----------------header section starts--------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="col-lg-3 logo fs-2 fw-bold text-decoration-none" href="index.html">MENTOR</a>
+			<div class="butt1">
+			    <a href="#" class="col-lg-9 btn ps-4 pe-4 rounded-pill text-white ps-2">Get started</a>
+			</div>	
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+			aria-controls=  "navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-lg-9 collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ps-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ps-2">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+		            <li class="nav-item ps-2">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+					<li class="nav-item ps-2">
+                        <a class="nav-link" href="trainer.html">Trainers</a>
+                    </li>
+		            <li class="nav-item ps-2">
+                        <a class="nav-link" href="event.html">Events</a>
+                    </li>
+		            <li class="nav-item ps-2">
+                        <a class="nav-link" href="price.html">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dropdown1</a></li>
 							<li class="dropdown-sub">
-								<a href="#" class="nav-list2">Deep Drop down<i class="icofont-curved-right"></i></a>
-							    <ul class="dropdown-nav-sub">	
-								    <li><a href="#">DeepDropdown1</a></li>
-                                    <li><a href="#">DeepDropdown2</a></li>										
-									<li><a href="#">DeepDropdown3</a></li>	
-									<li><a href="#">DeepDropdown4</a></li>	
-									<li><a href="#">DeepDropdown5</a></li>
-                                </ul>									
+                                <a class="dropdown-item" href="#">Deep Drop Down</a>
+							    <ul class="dropdown-nav-sub">
+							        <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
+							    </ul>
 							</li>
-									<li><a href="#">Dropdown2</a></li>
-									<li><a href="#">Dropdown3</a></li>
-									<li><a href="#">Dropdown4</a></li>
-								</ul>
-							</li>
-                            <li><a href="#"class="nav-list">Contact</a></li>
-							<a href="#"class="nav-btns buttons">Get Started</a>
-						</ul>
-					</div>
-			    </div> 
-            </div>						
-		</div>-->	
-	</header>
+                            <li><a class="dropdown-item" href="#">Drop Down2</a></li>
+							<li><a class="dropdown-item" href="#">Drop Down3</a></li>
+							<li><a class="dropdown-item" href="#">Drop Down4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ps-1">
+                        <a class="nav-link pe-3" href="cont.html">Contact</a>
+                    </li>
+                   <li><a href="#" class="btn ps-4 pe-4 rounded-pill text-white d-none ps-2">Get started</a></li>
+		        </ul>
+            </div>
+        </div>
+    </nav>  
 <!----------------header section end----------------->
 <!----------------banner section starts-------------->
     <section class="banner mb-5">
@@ -76,7 +91,7 @@
 <!----------------banner section end------------------>
 <!----------------img-content section starts---------->	
     <section class="img-content mb-5">
-	    <div class="container">
+		<div class="container">
 	        <div class="row">
 		        <div class="col-lg-6">
 				    <div class="word-content">
@@ -106,25 +121,25 @@
      <section class="number-section mb-5">
 	    <div class="container">
 		    <div class="row">
-		        <div class="col-lg-3">
+		        <div class="col-lg-3 col-6">
 	                <div class="numbers-box w-100 text-center pt-3 pb-3">
 	                    <span class="fs-1 fw-bold">1232</span>
 				        <p class="fs-5">Students</p> 
 			        </div>
                 </div>	
-                <div class="col-lg-3">				
+                <div class="col-lg-3 col-6">				
 			        <div class="numbers-box w-100 text-center pt-3 pb-3">
 				        <span class="fs-1 fw-bold">64</span>
 				        <p class="fs-5">Courses</p>
 			        </div>
                 </div>	
-                <div class="col-lg-3">				
+                <div class="col-lg-3 col-6">				
 			        <div class="numbers-box w-100 text-center pt-3 pb-3">
 				        <span class="fs-1 fw-bold">42</span>
 				        <p class="fs-5">events<p>
 			        </div>
 				</div>	
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-6">
 			        <div class="numbers-box w-100 text-center pt-3 pb-3">
 				        <span class="fs-1 fw-bold">15</span>
 				        <p class="fs-5">Trainers</p>
@@ -138,32 +153,33 @@
  <section class="choose mb-5">
 	    <div class="container">
 		    <div class="row">
-			    <div class="col-lg-4">
+			    <div class="col-lg-3 col-xl-4">
 				    <div class="ch-content h-100 pt-4 pl-3 ps-4 mb-3 pe-4 ">
 				        <h2 class="fs-2 text-white pb-2 fw-bold">Why Choose Mentor?</h2>
 					    <p class="pb-2 text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
 					    et dolore magna aliqua.Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos.
 					    Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
-					    <a href="#"class="text-decoration-none butt1 rounded-pill ms-5 pt-2 pb-2 ps-4 fs-5 pe-4">Learn More<i class="icofont-thin-right"></i></a>
+					    <a href="#"class="text-decoration-none butt1 rounded-pill ms-5 pt-2 pb-2 ps-4 fs-5 pe-4">Learn More
+						<i class="icofont-thin-right"></i></a>
 	                </div>	
 				</div>
 				<div class="col-lg-8">
 				    <div class="row">
-				        <div class="col-lg-4">
+				        <div class="col-lg-9 col-xl-4">
 					        <div class="ico-box">
 					            <i class="icofont-newspaper rounded-circle fs-2 text-center ps-3 pb-3 pt-3 pe-3"></i>
 						        <h3 class="fs-4 ps-4 pe-4 pt-5 pb-3 fw-bold text-center">Corporis voluptates sit</h3>
 						        <p class="ps-4 pe-4 pb-4">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 					        </div>
 					    </div>
-					    <div class="col-lg-4">
+					    <div class="col-lg-9 col-xl-4">
 					        <div class="ico-box">
 					            <i class="icofont-cube rounded-circle fs-2 text-center ps-3 pb-3 pt-3 pe-3"></i>
 						        <h3 class="fs-4 ps-4 pe-4 pt-5 pb-3 fw-bold text-center">Ullamco laboris ladore pan</h3>
 						        <p class="ps-4 pe-4 pb-4">Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt</p>
 					        </div>
 					    </div>	
-					    <div class="col-lg-4">
+					    <div class="col-lg-9 col-xl-4">
 					        <div class="ico-box">
 					            <i class="icofont-maximize rounded-circle fs-2 text-center ps-3 pb-3 pt-3 pe-3"></i>
 						        <h3 class="fs-4 ps-4 pe-4 pt-5 pb-3 fw-bold text-center">Labore consequatur</h3>
@@ -268,15 +284,15 @@
 <!---------------ico-content ends----------------------->
 <!---------------courses start-------------------------->
     <section class="pop mb-5">
-	    <div class="container">
+        <div class="container">		
 		    <div class="heading">
 			    <pre class="fs-5">COURSES</pre>
 				<div class="line">
 				</div>
 				<h2 class="fs-2 fw-bolder pt-3 pb-3">POPULAR COURSES</h2>
 			</div>
-			<div class="row">
-			    <div class="col-lg-4">
+			<div class="row justify-content-center">
+			    <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="./web-assets/course-1.jpg">
                         <div class="card-body">
@@ -295,18 +311,20 @@
 					    <div class="ico-heart pb-3 d-flex">
 						    <img src="web-assets/trainers/trainer-1.jpg" class="rounded-circle mt-3 ms-3">
 						    <h2 class="fs-5 pt-4 ps-2">Antonio</h2>
-						    <i class="icofont-business-man-alt-1 pt-4 ps-5"></i><span class="pt-4">50</span>
-					        <i class="icofont-heart pt-4"></i><span class="pt-4">65</span>
+							<div class="ico-img pt-4">
+						        <i class="icofont-ui-user"></i><span class="pt-4">50</span>
+					            <i class="icofont-heart ps-2"></i><span class="pt-4">65</span>
+							</div>	
 					    </div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="./web-assets/course-2.jpg">
                         <div class="card-body">
 					        <div class="card-head d-flex">
 							    <h6 class="ps-2 pe-2 pt-1 pb-1">Marketing</h6>
-							    <div class="symbol">
+							    <div class="symbol-1">
 							        <span class="fs-5 fw-bold pt-5">$250</span>
 							    </div>
 							</div>
@@ -319,18 +337,20 @@
 					    <div class="ico-heart pb-3 d-flex">
 						    <img src="web-assets/trainers/trainer-2.jpg" class="rounded-circle mt-3 ms-3">
 						    <h2 class="fs-5 pt-4 ps-2">Lana</h2>
-						    <i class="icofont-business-man-alt-1 pt-4 ps-5"></i><span class="pt-4">35</span>
-					        <i class="icofont-heart pt-4"></i><span class="pt-4">42</span>
+						    <div class="ico-img-1 pt-4">
+						        <i class="icofont-ui-user"></i><span class="pt-4">50</span>
+					            <i class="icofont-heart ps-2"></i><span class="pt-4">65</span>
+							</div>
 					    </div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="./web-assets/course-3.jpg">
                         <div class="card-body">
 					        <div class="card-head d-flex">
 							    <h6 class="ps-2 pe-2 pt-1 pb-1">Content</h6>
-							    <div class="symbol">
+							    <div class="symbol-2">
 							        <span class="fs-5 fw-bold pt-5">$180</span>
 							    </div>
 							</div>
@@ -343,8 +363,10 @@
 					    <div class="ico-heart pb-3 d-flex">
 						    <img src="web-assets/trainers/trainer-3.jpg" class="rounded-circle mt-3 ms-3">
 						    <h2 class="fs-5 pt-4 ps-2">Brandon</h2>
-						    <i class="icofont-business-man-alt-1 pt-4 ps-5"></i><span class="pt-4">20</span>
-					        <i class="icofont-heart pt-4"></i><span class="pt-4">85</span>
+						    <div class="ico-img pt-4">
+						        <i class="icofont-ui-user"></i><span class="pt-4">50</span>
+					            <i class="icofont-heart ps-2"></i><span class="pt-4">65</span>
+							</div>
 					    </div>
 					</div>
 				</div>
@@ -354,9 +376,9 @@
 <!--------------------courses end------------------>
 <!-------------------img-link start------------->
     <section class="img-link mb-5">
-	    <div class="container">
-		    <div class="row">
-			    <div class="col-lg-4">
+		<div class="container">
+		    <div class="row justify-content-center">
+			    <div class="col-lg-4 col-md-6">
 			        <div class="card text-center">
                         <img src="web-assets/trainers/trainer-1.jpg" class="w-100">
                         <div class="card-body">
@@ -370,7 +392,7 @@
                         </div>
 					</div>	
                 </div>
-				 <div class="col-lg-4">
+				 <div class="col-lg-4 col-md-6">
 			        <div class="card text-center">
                         <img src="web-assets/trainers/trainer-2.jpg" class="w-100">
                         <div class="card-body">
@@ -384,7 +406,7 @@
                         </div>
 					</div>	
                 </div>
-				 <div class="col-lg-4">
+				 <div class="col-lg-4 col-md-6">
 			        <div class="card text-center">
                         <img src="web-assets/trainers/trainer-3.jpg" class="w-100">
                         <div class="card-body">
@@ -401,12 +423,12 @@
 		    </div>
 		</div>
 	</section>
-<!----------------------img-link end---------------------->	
+<!----------------------img-link end---------------------->
 <!----------------------details starts---------------->
     <section class="details pt-5">
 	    <div class="container">
 		    <div class="row">
-			    <div class="col-lg-3">
+			    <div class="col-lg-3 col-md-6">
 				    <div class="add">
 					    <h2 class="fs-5 fw-bold ps-2 pb-4">Mentor</h2>
 						<p>A108 Adam Street<br>New York, NY 535022 United States</p>
@@ -414,7 +436,7 @@
 						<pre>Email:info@example.com</pre>
 					</div>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-lg-2 col-md-6">
 				    <div class="link1">
 					    <h2 class="fs-6 fw-bold">Useful Links</h2>
 						<a href="#"class="text-decoration-none d-block pb-3"><i class="icofont-simple-right"></i>Home</a>
@@ -424,7 +446,7 @@
 						<a href="#"class="text-decoration-none d-block pb-3"><i class="icofont-simple-right"></i>Privacy policy</a>
 					</div>
 				</div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
 				    <div class="link1">
 					    <h2 class="fs-6 fw-bold">Our Services</h2>
 						<a href="#"class="text-decoration-none d-block pb-3"><i class="icofont-simple-right"></i>Web Design</a>
@@ -434,7 +456,7 @@
 						<a href="#"class="text-decoration-none d-block pb-3"><i class="icofont-simple-right"></i>Graphic Design</a>
 					</div>
 				</div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
 				    <div class="news">
 					    <h2 class="fs-6 fw-bold">Join Our Newsletter</h2>
 						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
@@ -453,9 +475,8 @@
 	    <div class="container">			
 			<div class="row">
 			    <div class="col-lg-4">
-				    <div class="copyright position-relative">
-					    <p>© Copyright <b>Mentor</b>. All Rights Reserved</p>
-						<p>Designed by</p><a href="BootstrapMade" class="text-decoration-none position-absolute">BootstrapMade</a>
+				    <div class="design">
+						<p>Designed by</p><a href="Revathi Front End Developer" class="text-decoration-none">Revathi Front End Developer</a>
 					</div>
 				</div>
                 <div class="col-lg-8">
@@ -480,6 +501,9 @@
 			</div>
 		</div>
 	</section>
+	
+	<script src="owlcarousel/js/jquery3.6.1.min.js"></script>
+	<script src="owlcarousel/js/owl.carousel.min.js"></script>
 	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>	
 </body>
 </html>
