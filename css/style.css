@@ -1,4 +1,10 @@
-/*--------------header section start---------------*/ 
+/*--------------header section start---------------*/
+.navbar{
+	width:100%;
+    position:fixed;
+    top:0;
+    z-index:2;
+} 
 .navbar-light .logo{
     color: rgb(95 207 128);
 }
@@ -86,6 +92,26 @@ a.btn:hover{
 .btn:focus{
 	box-shadow:none;
 }
+.footer{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    background-color:rgb(95 207 128);
+    height:46px;
+    width:46px;
+    border-radius:75%;
+    z-index:2;
+}
+.footer a{
+	text-decoration:none;
+}
+.footer i{
+    font-size:30px;
+    color:white;
+    position:absolute;
+    top:8px;
+	right:8px;
+}
 /*------------header section end------------------*/
 /*------------banner section start-----------------*/
 .banner{
@@ -120,37 +146,59 @@ a.butt:hover{
 .numbers-box span{
 	color:rgb(81 199 81/78%);
 	font-family:"Poppins",san-serif;
+    font-size: 46px;
 }
 /*---------------number end--------------------*/
 /*---------------choose start-------------------*/
 .ch-content{
 	border:1px solid rgb(118 187 118);
 	background-color:rgb(95, 207, 128);
+	padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
 }
-a.butt1{
+.ch-content p{
+	font-size: 17px;
+}
+a.butt2{
     color: white;
-    border: 1px solid rgb(95 207 128);
-	background-color:rgb(131 207 144);
+    border: 1px solid rgb(134 219 159);
+	background-color:rgb(134 219 159);
 }
-a.butt1:hover{
+a.butt2:hover{
 	background-color:white;
 	color:rgb(95, 207, 128);
 	border-color:rgb(95, 207, 128);
 }
 .ico-box{
-	margin-top:64px;
-	padding-top:40px;
-	border:1px solid rgb(219 209 209 / 75%);
+	margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgb(238 240 239);
+}
+.ico-box h3{
+	font-size:20px;
+}
+.ico-box p{
+	font-size:15px;
+	color:rgb(132 132 132);
 }
 .ico-box i {
     color:lightgreen;
-    margin-left:90px;
 	background-color:rgb(245 245 245);
 }
 /*---------------choose end--------------------*/
 /*---------------ico-content start-------------------*/
 .ico-content{
     border: 1px solid rgb(228 221 221);
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 .ico-content:hover{
 	color:rgb(95 207 128);
@@ -174,7 +222,7 @@ i.icofont-database {
 i.icofont-ui-rotation {
     color: rgb(255 167 110);
 }
-i.icofont-newspaper {
+i.icofont-file-text {
     color: rgb(17 219 207);
 }
 i.icofont-hotel {
@@ -194,38 +242,28 @@ i.icofont-finger-print {
 }
 /*---------------ico-content end--------------------*/
 /*---------------courses start----------------------*/
-.heading pre{
+.heading h2{
     color: rgb(170 170 170);
     letter-spacing: 2px;
 }
-.line{
+.heading span{
 	background-color:lightgreen;
     height: 1px;
     width:100px;
-    margin-top:-32px;
-    margin-left:100px;
 }
 .card-head h6{
     border:1px solid lightgreen;
     color:white;
     background-color:rgb(95, 207, 128);
 }
-.symbol {
-    padding-left: 116px;
-}
-.symbol-1 {
-    padding-left: 186px;
-	font-family:"";
-}
-.symbol-2 {
-    padding-left: 200px;
-    font-family: "";
-}
-.ico-img{
-    padding-left: 100px;
+i.icofont-ui-user {
+    color: grey;
 }
 .ico-img-1{
     padding-left: 132px;
+}
+i.icofont-heart {
+    color: grey;
 }
 .symbol span {
 	font-family:"Poppins",sans-serif;
@@ -250,6 +288,7 @@ i.icofont-finger-print {
 }
 .ico-heart span{
 	font-family:"Poppins",sans-serif;
+	color: grey;
 }
 /*---------------courses end--------------------*/
 /*---------------img-link start----------------------*/
@@ -286,6 +325,9 @@ p.card-para{
     padding-right:106px;
     margin-right:21px;
 	border: 1px solid rgb(224 229 226);
+}
+.form{
+    padding-right: 130px;
 }
 .news input {
     border-top-left-radius: 16px;
@@ -326,3 +368,205 @@ p.card-para{
 .socialmedia a:hover{
 	background-color:rgb(58, 193, 98);
 }
+/*-----------event start-------------------*/
+/*.Events{
+	background-color:rgb(95 207 128);
+	margin-top: 76px;
+}
+.eve-img img{
+	transition:all 0.5s ease;
+}
+.eve-img:hover img{
+	transform:scale(1.1);
+}
+.eve-hover:hover h2{
+	border-top:4px solid rgb(58 193 98);
+	color:rgb(95 207 128);
+	transition:all 0.5s ease;
+}
+.eve-design{
+	border:1px solid white;
+	box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+	position: relative;
+    top: -60px;
+}
+.eve-design p{
+	font-size: 14px;
+}*/
+/*----------------event-end----------------*/
+/*----------------about start--------------------*/
+/*----------------img-content start----------------*/
+.about{
+    background-color:rgb(95 207 128);
+	margin-top:76px;
+}
+/*----------------img-content end----------------*/
+/*---------------test start--------------------*/
+.test-heading h6{
+	color:rgb(170 170 170);
+}
+.lines{
+	background-color: lightgreen;
+    height: 1px;
+    width: 160px;
+    position: relative;
+    top: -26px;
+    left: 128px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width:85px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:rgb(95 207 128);
+}
+.owl-theme .owl-dots .owl-dot span {
+    background-color: white;
+    border: 1px solid rgb(95 207 128);
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    margin-bottom: 40px;
+}
+.card-1{
+	margin-left:68px;
+}
+.card-body-1 {
+    position: relative;
+    padding-left: 70px;
+    padding-top: 44px;
+    padding-right: 20px;
+}
+.card-body-1 img{
+	width:85px;
+	border-radius:6px;
+}
+.card-body-2 {
+    position: absolute;
+    top: 38px;
+    left: -42px;
+}
+.card i{
+	color:rgb(193 236 206)!important;
+}
+.card i:hover{
+	color:none;
+}
+.card-text-1 i:first-child{
+    display:inline-block;
+    transform:translateY(-10px);
+}	
+.card-text-1 i:last-child{
+	display:inline-block;
+    transform:translateY(10px);
+}
+.card-text-1 {
+	color: rgb(68 68 68);
+}
+/*---------------test end----------------------*/
+/*---------------about end---------------------*/
+/*----------------courses start-------------------*/
+.Courses{
+    background-color:rgb(95 207 128);
+	margin-top:76px;
+}
+/*----------------courses end-------------------*/
+/*----------------price start-------------------*/
+.pricing{
+	background-color:rgb(95 207 128);
+	margin-top:76px;
+}
+.title{
+	background-color:rgb(248, 248, 248);
+	color:rgb(119 119 119);
+}
+.zero{
+	color:rgb(95 207 128);
+	font-family:"",san-serif;
+}
+.word{
+	color:rgb(186 186 186);
+	font-weight:normal;
+}
+.up{
+    position: relative!important;
+    top: -18px;
+	left: -2px;
+	color:rgb(95 207 128);
+}
+.strike{
+	color:rgb(204 204 204);
+}
+.btn-1{
+	border:1px solid rgb(95 207 128) ;
+	background-color:rgb(95 207 128);
+}
+.bg{
+	background-color:rgb(248, 248, 248);
+}
+.title-active{
+	background-color:rgb(95 207 128);
+	color:white;
+}
+span.position-absolute{
+    transform: rotate(42deg);
+    width: 76%;
+    top: 4%;
+    right: -23%;
+    background-color:rgb(95 207 128);
+    overflow: hidden;
+}
+/*----------------price end-------------------*/
+/*----------------trainer start-------------------*/
+/*---------------img-link start----------------------*/
+.Trainers{
+	background-color:rgb(95 207 128);
+	margin-top:76px;
+}
+p.card-para{
+    text-align:center;
+    font-size:14px;
+}
+.card i:hover{
+	color:rgb(95, 207, 128);
+}
+.card i{
+	color:rgb(126 148 134);
+}
+/*---------------img-link end----------------------*/
+/*----------------trainer end-------------------*/
+/*----------------contact start-------------------*/
+.Contact{
+	background-color:rgb(95 207 128);
+	margin-top:76px;
+}
+.contact-2{
+	width:100%;
+}
+.info h4{
+	padding-left:60px;
+}
+.info p{
+	font-family:"";
+	padding-left:60px;
+}
+.info i{
+    top:16%;
+	color:rgb(95 207 128);
+	background-color:rgb(236 249 240);
+}
+.name{
+	height:130px;
+}
+.btn-2{
+	border:1px solid rgb(95 207 128) ;
+	background-color:rgb(95 207 128);
+	margin-left: 290px;
+}
+.form-control:focus {
+	box-shadow:none;
+	border-color:rgb(95 207 128);
+}
+/*----------------contact end-------------------*/
+
+
+

@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>website 2(bootstrap)</title>
+	<link rel="icon" href="./web-assets/bootstrap.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
@@ -11,8 +12,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/trainer.css">   
+	<link rel="stylesheet" href="css/style.css">   
 </head>    
 <body>
 <!----------------header section starts--------------->
@@ -44,21 +46,22 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown <i class="icofont-thin-down"></i></a>
+                        Dropdown</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                            <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
-							<ul class="dropdown-nav">
-							    <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
-							</ul>
+							<li class="dropdown-sub">
+                                <a class="dropdown-item" href="#">Deep Drop Down</a>
+							    <ul class="dropdown-nav-sub">
+							        <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
+							    </ul>
+							</li>
                             <li><a class="dropdown-item" href="#">Drop Down2</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down3</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down4</a></li>
-							<li><a class="dropdown-item" href="#">Drop Down5</a></li>
                         </ul>
                     </li>
                     <li class="nav-item ps-1">
@@ -66,6 +69,9 @@
                     </li>
                    <li><a href="#" class="btn ps-4 pe-4 rounded-pill text-white">Get started</a></li>
 		        </ul>
+				<div class="footer">
+				    <a href="#"><i class="icofont-arrow-up"></i></a>
+			    </div>
             </div>
         </div>
     </nav>  
@@ -164,7 +170,7 @@
 				    <div class="news">
 					    <h2 class="fs-6 fw-bold">Join Our Newsletter</h2>
 						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-					<div class="position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
+					<div class="form position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
 						<input class="email w-100 h-100 pt-2 pb-2 ps-3 pe-3" >	
 						<button type="button" class="h-100 rounded-pill pt-2 pb-2 ps-3 pe-3 fs-5 position-absolute">Subscribe</button>
                     </div>						
@@ -179,9 +185,8 @@
 	    <div class="container">			
 			<div class="row">
 			    <div class="col-lg-4">
-				    <div class="copyright position-relative">
-					    <p>© Copyright <b>Mentor</b>. All Rights Reserved</p>
-						<p>Designed by</p><a href="BootstrapMade" class="text-decoration-none position-absolute">BootstrapMade</a>
+				     <div class="design">
+					    <p>Designed by</p><a href="Revathi Front End Developer" class="text-decoration-none">Revathi Front End Developer</a>
 					</div>
 				</div>
                 <div class="col-lg-8">

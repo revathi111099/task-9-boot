@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>website 2(bootstrap)</title>
+	<link rel="icon" href="./web-assets/bootstrap.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
@@ -11,6 +12,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/event.css">   
 </head>    
@@ -19,7 +21,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="col-lg-3 logo fs-2 fw-bold text-decoration-none" href="index.html">MENTOR</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls=  "navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+			aria-controls=  "navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="col-lg-9 collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,23 +45,24 @@
 		            <li class="nav-item ps-1">
                         <a class="nav-link" href="price.html">Pricing</a>
                     </li>
-                    <li class="nav-item dropdown">
+                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown <i class="icofont-thin-down"></i></a>
+                        Dropdown</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                            <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
-							<ul class="dropdown-nav">
-							    <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
-							</ul>
+							<li class="dropdown-sub">
+                                <a class="dropdown-item" href="#">Deep Drop Down</a>
+							    <ul class="dropdown-nav-sub">
+							        <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
+							    </ul>
+							</li>
                             <li><a class="dropdown-item" href="#">Drop Down2</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down3</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down4</a></li>
-							<li><a class="dropdown-item" href="#">Drop Down5</a></li>
                         </ul>
                     </li>
                     <li class="nav-item ps-1">
@@ -66,6 +70,9 @@
                     </li>
                    <li><a href="#" class="btn ps-4 pe-4 rounded-pill text-white">Get started</a></li>
 		        </ul>
+				<div class="footer">
+				    <a href="#"><i class="icofont-arrow-up"></i></a>
+			    </div>
             </div>
         </div>
     </nav>  
@@ -76,7 +83,9 @@
 	        <div class="container">
 		        <div class="Events mb-4">
 			        <h3 class="text-center text-white pb-2 pt-3">Events</h3>
-				    <p class="text-center text-white pb-4">Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
+				    <p class="text-center text-white pb-4">Est dolorum ut non facere possimus quibusdam
+					eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam
+					aperiam consequatur laboriosam nemo harum praesentium.</p>
 			    </div>
 			</div>	
 		</div>	
@@ -87,10 +96,12 @@
 				        <div class="eve-img overflow-hidden">
 				            <img src="web-assets/events/events-1.jpg" class="w-100 h-100">
 					    </div>
-					    <div class="eve-design bg-white ms-5 me-5 ps-4 pe-3">
-					        <h2 class="fs-5 fw-bold text-center pt-4">Introduction to webdesign</h2>
+					    <div class="eve-design bg-white ms-4 me-4">
+					        <h2 class="heading fs-5 fw-bold text-center pt-4">Introduction to webdesign</h2>
 						    <h3 class="fs-6 text-center fst-italic pt-3">Sunday, September 26th at 7:00 pm</h3>
-						    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+						    <p class="pt-2 ps-4 pe-4">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut 
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat</p>
 					    </div>
 					</div>
 			    </div>
@@ -99,10 +110,12 @@
 				        <div class="eve-img overflow-hidden">
 				            <img src="web-assets/events/events-2.jpg" class="w-100 h-100">
 					    </div>	
-				        <div class="eve-design bg-white ms-5 me-5 ps-4 pe-3">
+				        <div class="eve-design bg-white ms-4 me-4">
 					        <h2 class="fs-5 fw-bold text-center pt-4">Marketing Strategies</h2>
 				            <h3 class="fs-6 text-center fst-italic pt-3">Sunday, November 15th at 7:00 pm</h3>
-					        <p class="pt-2 pb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+					        <p class="pt-2 ps-4 pe-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+							quasi architecto beatae vitae dicta sunt explicabo</p>
 				        </div>					
 				    </div>
 				</div>	
@@ -146,7 +159,7 @@
 				    <div class="news">
 					    <h2 class="fs-6 fw-bold">Join Our Newsletter</h2>
 						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-					<div class="position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
+					<div class="form position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
 						<input class="email w-100 h-100 pt-2 pb-2 ps-3 pe-3" >	
 						<button type="button" class="h-100 rounded-pill pt-2 pb-2 ps-3 pe-3 fs-5 position-absolute">Subscribe</button>
                     </div>						
@@ -161,9 +174,8 @@
 	    <div class="container">			
 			<div class="row">
 			    <div class="col-lg-4">
-				    <div class="copyright position-relative">
-					    <p>© Copyright <b>Mentor</b>. All Rights Reserved</p>
-						<p>Designed by</p><a href="BootstrapMade" class="text-decoration-none position-absolute">BootstrapMade</a>
+				     <div class="design">
+					    <p>Designed by</p><a href="Revathi Front End Developer" class="text-decoration-none">Revathi Front End Developer</a>
 					</div>
 				</div>
                 <div class="col-lg-8">
@@ -192,4 +204,3 @@
 	<script src="owlcarousel/js/jquery3.6.1.min.js"></script>
 	<script src="owlcarousel/js/owl.carousel.min.js"></script>
 	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>	
-	<script>

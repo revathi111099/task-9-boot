@@ -34,6 +34,52 @@
 		padding-top: 20px;
         padding-bottom: 20px;
     }
+/*----------------about start-----------------*/
+    .test h2{
+		font-size: 38px;
+	}
+	.card-1 {
+        margin-left:0px!important;
+        border: 1px solid rgb(238 240 239);
+    }
+	.card-body-1 {
+		position:static;
+        padding-left: 38px!important;
+        padding-top: 38px!important;
+        padding-right: 36px!important;
+    }
+	.card-body-2{
+		position:static!important;
+	}
+	.card-title-1 {
+        padding-top: 16px;
+    }
+	.card-text-1 {
+        padding-bottom: 16px;
+    }	
+/*----------------about end-----------------*/
+/*----------------courses start-----------------*/
+    .card-head h6 {
+        font-size: 15px!important;
+    }
+	.media {
+        text-align: center;
+    }
+/*-----------------courses end-----------------*/
+/*-----------------events start-----------------*/	
+    .heading{
+        font-size: 26px!important;
+    }
+	.eve-design h3{
+		font-size: 18px!important;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+	.eve-design p {
+        font-size: 19px!important;
+    }
+	
+/*-----------------events end-----------------*/	
 }
 /*----------------tabs device------------------*/
 @media (min-width:768px) and (max-width:922px){

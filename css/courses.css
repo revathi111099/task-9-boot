@@ -1,12 +1,85 @@
-/*--------------header section start---------------*/ 
+/*--------------header section start---------------*/
+.navbar{
+	width:100%;
+    position:fixed;
+    top:0;
+    z-index:2;
+}  
 .navbar-light .logo{
     color: rgb(95 207 128);
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: rgb(95 207 128);
 }
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(55 66 59);
+    font-size: 16px;
+    font-weight: 600;
+}
 .navbar-nav .nav-item .nav-link:hover{
 	color:rgb(95 207 128);
+}
+.dropdown{
+	position:relative;
+} 
+.dropdown-menu{
+	position:absolute;
+	left:0;
+	top:90%;
+	min-width:190px;
+	background-color:white;
+	box-shadow:1px -2px 18px -6px #ccc;
+	border-radius:10px;
+	text-align:left;
+	transform:translateY(20px);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.5s ease;
+}
+.dropdown:hover .dropdown-menu{
+	transform:translateY(0);
+	opacity:1;
+	visibility:visible;
+}
+.dropdown-menu li{
+	display:block;
+}
+.dropdown ul a:hover{
+	color:rgb(144 238 144);
+}
+.dropdown-menu li a{
+	text-align:left;
+	color:black;
+	font-size:14px;
+	display:block;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:15px;
+	padding-right:15px;
+	font-family:"";
+}
+.dropdown-sub{
+	position:relative;
+}
+.dropdown-nav-sub{
+	position:absolute;
+	top:0;
+	left:100%;
+	min-width:100%;
+	background-color:white;
+	box-shadow:1px -2px 18px -6px #ccc;
+	border-radius:10px;
+	text-align:left;
+	transform:translateX(-15px);
+	font-family:"";
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.5s ease;
+}
+.dropdown-sub:hover .dropdown-nav-sub{
+	transform:translateX(0px);
+	opacity:1;
+	visibility:visible;
 }
 .btn{
 	border:1px solid rgb(95 207 128) ;
@@ -19,21 +92,31 @@ a.btn:hover{
 .btn:focus{
 	box-shadow:none;
 }
+.footer{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    background-color:rgb(95 207 128);
+    height:46px;
+    width:46px;
+    border-radius:75%;
+    z-index:2;
+}
+.footer a{
+	text-decoration:none;
+}
+.footer i{
+    font-size:30px;
+    color:white;
+    position:absolute;
+    top:8px;
+	right:8px;
+}
 /*---------------heading end-----------------------*/
 /*---------------courses start----------------------*/
-.heading pre{
-    color: rgb(170 170 170);
-    letter-spacing: 2px;
-}
-.line{
-	background-color:lightgreen;
-    height: 1px;
-    width:100px;
-    margin-top:-32px;
-    margin-left:100px;
-}
 .Courses{
-	background-color:rgb(95 207 128);
+    background-color:rgb(95 207 128);
+	margin-top:76px;
 }
 .card-head h6{
     border:1px solid lightgreen;
@@ -42,6 +125,26 @@ a.btn:hover{
 }
 .symbol {
     padding-left: 116px;
+}
+.symbol-1 {
+    padding-left: 186px;
+	font-family:"";
+}
+.symbol-2 {
+    padding-left: 200px;
+    font-family: "";
+}
+.ico-img{
+    padding-left: 100px;
+}
+.ico-img-1{
+    padding-left: 132px;
+}
+i.icofont-ui-user {
+    color: grey;
+}
+i.icofont-heart {
+    color: grey;
 }
 .symbol span {
 	font-family:"Poppins",sans-serif;
@@ -66,6 +169,7 @@ a.btn:hover{
 }
 .ico-heart span{
 	font-family:"Poppins",sans-serif;
+	color: grey;
 }
 /*---------------courses end--------------------*/
 /*---------------details start---------------------*/
@@ -85,11 +189,8 @@ a.btn:hover{
 .link1 a:hover{
 	color:rgb(95 207 128);
 }
-.news form {
-    overflow:hidden;
-    padding-right:106px;
-    margin-right:21px;
-	border: 1px solid rgb(224 229 226);
+.form {
+    padding-right: 130px;
 }
 .news input {
     border-top-left-radius: 16px;
@@ -112,15 +213,17 @@ a.btn:hover{
 .media{
 	background-color:rgb(238 240 239);
 }
-.copyright a{
+.design {
+    padding-bottom: 20px;
+}
+.design p{
+	margin-bottom:0px;
+}
+.design a{
 	color:rgb(95 207 128);
 }
-.copyright a:hover{
+.design a:hover{
 	color:rgb(58, 193, 98);
-}
-a.text-decoration-none {
-    top: 40px;
-    left: 94px;
 }
 .socialmedia {
     text-align: right;

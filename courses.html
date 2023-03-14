@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>website 2(bootstrap)</title>
+	<link rel="icon" href="./web-assets/bootstrap.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
@@ -11,8 +12,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/courses.css">   
+	<link rel="stylesheet" href="css/style.css">   
 </head>    
 <body>
 <!----------------header section starts--------------->
@@ -42,23 +44,24 @@
 		            <li class="nav-item ps-1">
                         <a class="nav-link" href="price.html">Pricing</a>
                     </li>
-                    <li class="nav-item dropdown">
+                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown <i class="icofont-thin-down"></i></a>
+                        Dropdown</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                            <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
-							<ul class="dropdown-nav">
-							    <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
-							</ul>
+							<li class="dropdown-sub">
+                                <a class="dropdown-item" href="#">Deep Drop Down</a>
+							    <ul class="dropdown-nav-sub">
+							        <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
+							    </ul>
+							</li>
                             <li><a class="dropdown-item" href="#">Drop Down2</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down3</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down4</a></li>
-							<li><a class="dropdown-item" href="#">Drop Down5</a></li>
                         </ul>
                     </li>
                     <li class="nav-item ps-1">
@@ -66,6 +69,9 @@
                     </li>
                    <li><a href="#" class="btn ps-4 pe-4 rounded-pill text-white">Get started</a></li>
 		        </ul>
+				<div class="footer">
+				    <a href="#"><i class="icofont-arrow-up"></i></a>
+			    </div>
             </div>
         </div>
     </nav>  
@@ -74,28 +80,23 @@
     <section class="pop mb-5">
 	    <div class="Courses">
 	        <div class="container">
-		        <div class="Courses-1 mb-4">
+		        <div class="courses-1 mb-4">
 			        <h3 class="text-center text-white pb-2 pt-3">Courses</h3>
-				    <p class="text-center text-white pb-4">Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
-			    </div>
-			</div>	
-		</div>
+				    <p class="text-center text-white pb-4">Est dolorum ut non facere possimus quibusdam eligendi voluptatem.
+					Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
+	            </div>
+            </div>	
+ 		</div>
         <div class="container">		
-		    <div class="heading">
-			    <pre class="fs-5">COURSES</pre>
-				<div class="line">
-				</div>
-				<h2 class="fs-2 fw-bolder pt-3 pb-3">POPULAR COURSES</h2>
-			</div>
-			<div class="row">
-			    <div class="col-lg-4">
+			<div class="row justify-content-center">
+			    <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="./web-assets/course-1.jpg">
                         <div class="card-body">
-					        <div class="card-head d-flex">
+					        <div class="card-head d-flex justify-content-between">
 							    <h6 class="ps-2 pe-2 pt-1 pb-1">Web Development</h6>
 							    <div class="symbol">
-							        <span class="fs-5 fw-bold pt-5">$169</span>
+							        <span class="fs-5 fw-bold">$169</span>
 							    </div>
 							</div>
                             <h5 class="card-title pt-3 pb-2 fs-5 fw-bold ">Website Design</h5>
@@ -104,22 +105,25 @@
                         </div>
 					    <div class="line1 ms-3 me-3 w-90">
 					    </div>
-					    <div class="ico-heart pb-3 d-flex">
+					    <div class="ico-heart pb-3 d-flex justify-content-between">
 						    <img src="web-assets/trainers/trainer-1.jpg" class="rounded-circle mt-3 ms-3">
-						    <h2 class="fs-5 pt-4 ps-2">Antonio</h2>
-						    <i class="icofont-business-man-alt-1 pt-4 ps-5"></i><span class="pt-4">50</span>
-					        <i class="icofont-heart pt-4"></i><span class="pt-4">65</span>
+						        <h2 class="fs-5 pt-4 ps-2">Antonio</h2>
+							    <div class="ico-img pt-4">
+						            <i class="icofont-ui-user"></i><span class="pt-4">50</span>
+					                <i class="icofont-heart ps-2"></i><span class="pt-4">65</span>
+							    </div>
+                         								
 					    </div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="./web-assets/course-2.jpg">
                         <div class="card-body">
-					        <div class="card-head d-flex">
+					        <div class="card-head d-flex justify-content-between">
 							    <h6 class="ps-2 pe-2 pt-1 pb-1">Marketing</h6>
 							    <div class="symbol">
-							        <span class="fs-5 fw-bold pt-5">$250</span>
+							        <span class="fs-5 fw-bold">$250</span>
 							    </div>
 							</div>
                             <h5 class="card-title pt-3 pb-2 fs-5 fw-bold ">Search Engine Optimization</h5>
@@ -131,19 +135,21 @@
 					    <div class="ico-heart pb-3 d-flex">
 						    <img src="web-assets/trainers/trainer-2.jpg" class="rounded-circle mt-3 ms-3">
 						    <h2 class="fs-5 pt-4 ps-2">Lana</h2>
-						    <i class="icofont-business-man-alt-1 pt-4 ps-5"></i><span class="pt-4">35</span>
-					        <i class="icofont-heart pt-4"></i><span class="pt-4">42</span>
+						    <div class="ico-img-1 pt-4">
+						        <i class="icofont-ui-user"></i><span class="pt-4">50</span>
+					            <i class="icofont-heart ps-2"></i><span class="pt-4">65</span>
+							</div>
 					    </div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="./web-assets/course-3.jpg">
                         <div class="card-body">
-					        <div class="card-head d-flex">
+					        <div class="card-head d-flex justify-content-between">
 							    <h6 class="ps-2 pe-2 pt-1 pb-1">Content</h6>
 							    <div class="symbol">
-							        <span class="fs-5 fw-bold pt-5">$180</span>
+							        <span class="fs-5 fw-bold">$180</span>
 							    </div>
 							</div>
                             <h5 class="card-title pt-3 pb-2 fs-5 fw-bold ">Copywriting</h5>
@@ -155,14 +161,16 @@
 					    <div class="ico-heart pb-3 d-flex">
 						    <img src="web-assets/trainers/trainer-3.jpg" class="rounded-circle mt-3 ms-3">
 						    <h2 class="fs-5 pt-4 ps-2">Brandon</h2>
-						    <i class="icofont-business-man-alt-1 pt-4 ps-5"></i><span class="pt-4">20</span>
-					        <i class="icofont-heart pt-4"></i><span class="pt-4">85</span>
+						    <div class="ico-img pt-4">
+						        <i class="icofont-ui-user"></i><span class="pt-4">50</span>
+					            <i class="icofont-heart ps-2"></i><span class="pt-4">65</span>
+							</div>
 					    </div>
 					</div>
 				</div>
             </div>
 	    </div>
-    </section>	
+    </section>
 <!--------------------courses end------------------>
 <!----------------------details starts---------------->
     <section class="details pt-5">
@@ -200,7 +208,7 @@
 				    <div class="news">
 					    <h2 class="fs-6 fw-bold">Join Our Newsletter</h2>
 						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-					<div class="position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
+					<div class="form position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
 						<input class="email w-100 h-100 pt-2 pb-2 ps-3 pe-3" >	
 						<button type="button" class="h-100 rounded-pill pt-2 pb-2 ps-3 pe-3 fs-5 position-absolute">Subscribe</button>
                     </div>						
@@ -215,9 +223,8 @@
 	    <div class="container">			
 			<div class="row">
 			    <div class="col-lg-4">
-				    <div class="copyright position-relative">
-					    <p>© Copyright <b>Mentor</b>. All Rights Reserved</p>
-						<p>Designed by</p><a href="BootstrapMade" class="text-decoration-none position-absolute">BootstrapMade</a>
+				     <div class="design">
+					    <p>Designed by</p><a href="Revathi Front End Developer" class="text-decoration-none">Revathi Front End Developer</a>
 					</div>
 				</div>
                 <div class="col-lg-8">

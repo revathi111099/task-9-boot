@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>website 2(bootstrap)</title>
+	<link rel="icon" href="./web-assets/bootstrap.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
@@ -11,15 +12,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/about.css">    
+	<link rel="stylesheet" href="css/style.css">    
 </head>    
 <body>
 <!----------------header section starts--------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="col-lg-3 logo fs-2 fw-bold text-decoration-none" href="index.html">MENTOR</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls=  "navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+			aria-controls=  "navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="col-lg-9 collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,21 +47,22 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown <i class="icofont-thin-down"></i></a>
+                        Dropdown</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                            <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
-							<ul class="dropdown-nav">
-							    <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
-							    <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
-							</ul>
+							<li class="dropdown-sub">
+                                <a class="dropdown-item" href="#">Deep Drop Down</a>
+							    <ul class="dropdown-nav-sub">
+							        <li><a class="dropdown-item" href="#">Deep Drop Down1</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down2</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down3</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down4</a></li>
+							        <li><a class="dropdown-item" href="#">Deep Drop Down5</a></li>
+							    </ul>
+							</li>
                             <li><a class="dropdown-item" href="#">Drop Down2</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down3</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down4</a></li>
-							<li><a class="dropdown-item" href="#">Drop Down5</a></li>
                         </ul>
                     </li>
                     <li class="nav-item ps-1">
@@ -66,6 +70,9 @@
                     </li>
                    <li><a href="#" class="btn ps-4 pe-4 rounded-pill text-white ps-2">Get started</a></li>
 		        </ul>
+				<div class="footer">
+				    <a href="#"><i class="icofont-arrow-up"></i></a>
+			    </div>
             </div>
         </div>
     </nav>  
@@ -76,12 +83,13 @@
 	        <div class="container">
 		        <div class="about-1 mb-4">
 			        <h3 class="text-center text-white pb-2 pt-3">About Us</h3>
-				    <p class="text-center text-white pb-4">Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
+				    <p class="text-center text-white pb-4">Est dolorum ut non facere possimus quibusdam eligendi voluptatem.
+					Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
 	            </div>
             </div>	
  		</div>
 		<div class="container">
-	        <div class="row">
+	        <div class="row direct">
 		        <div class="col-lg-6">
 				    <div class="word-content">
 					    <h2 class="fs-4">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
@@ -110,27 +118,27 @@
      <section class="number-section mb-5">
 	    <div class="container">
 		    <div class="row">
-		        <div class="col-lg-3">
+		        <div class="col-lg-3 col-6">
 	                <div class="numbers-box w-100 text-center pt-3 pb-3">
-	                    <span class="fs-1 fw-bold">1232</span>
+	                    <span class="fw-bold">1232</span>
 				        <p class="fs-5">Students</p> 
 			        </div>
                 </div>	
-                <div class="col-lg-3">				
+                <div class="col-lg-3 col-6">				
 			        <div class="numbers-box w-100 text-center pt-3 pb-3">
-				        <span class="fs-1 fw-bold">64</span>
+				        <span class="fw-bold">64</span>
 				        <p class="fs-5">Courses</p>
 			        </div>
                 </div>	
-                <div class="col-lg-3">				
+                <div class="col-lg-3 col-6">				
 			        <div class="numbers-box w-100 text-center pt-3 pb-3">
-				        <span class="fs-1 fw-bold">42</span>
+				        <span class="fw-bold">42</span>
 				        <p class="fs-5">events<p>
 			        </div>
 				</div>	
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-6">
 			        <div class="numbers-box w-100 text-center pt-3 pb-3">
-				        <span class="fs-1 fw-bold">15</span>
+				        <span class="fw-bold">15</span>
 				        <p class="fs-5">Trainers</p>
 			        </div>
                 </div>					
@@ -149,67 +157,155 @@
 			</div>
 			<div class="owl-carousel owl-theme">
                 <div class="item">
-				    <div class="card">
+				    <div class="card-1">
                         <div class="card-body-1">
 						    <div class="card-body-2">
 					            <img src="web-assets/test/test-1.jpg">
 							</div>	
                             <h5 class="card-title-1">Saul Goodman</h5>
                             <h6 class="card-subtitle-1 pb-3 text-muted text-none">Ceo & Founder</h6>
-                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+							Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
 						    <i class="icofont-quote-right"></i> </p>
                         </div>
 				    </div>
 				</div>
                 <div class="item">
-				    <div class="card">
+				    <div class="card-1">
                         <div class="card-body-1">
 						    <div class="card-body-2">
 					            <img src="web-assets/test/test-2.jpg">
 							</div>	
                             <h5 class="card-title-1">Sara Wilsson</h5>
                             <h6 class="card-subtitle-1 pb-3 text-muted text-none">Designer</h6>
-                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<i class="icofont-quote-right"></i> </p>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+							malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+							<i class="icofont-quote-right"></i> </p>
                         </div>
 				    </div>
 				</div>    
                 <div class="item">
-				    <div class="card">
+				    <div class="card-1">
                         <div class="card-body-1">
 						    <div class="card-body-2">
 					            <img src="web-assets/test/test-3.jpg">
 							</div>	
                             <h5 class="card-title-1">Jena Karlis</h5>
                             <h6 class="card-subtitle-1 pb-3 text-muted text-none">Store Owner</h6>
-                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. 
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+							tempor labore quem eram duis noster aute amet eram fore quis sint minim. 
 						    <i class="icofont-quote-right"></i> </p>
                         </div>
 				    </div>
 				</div>   
                 <div class="item">
-				    <div class="card">
+				    <div class="card-1">
                         <div class="card-body-1">
 						    <div class="card-body-2">
 					            <img src="web-assets/test/test-4.jpg">
 							</div>	
                             <h5 class="card-title-1">Matt Brandon</h5>
                             <h6 class="card-subtitle-1 pb-3 text-muted text-none">Freelancer</h6>
-                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <i class="icofont-quote-right"></i> </p>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
+							minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+							<i class="icofont-quote-right"></i> </p>
                         </div>
 				    </div>
 				</div>
                 <div class="item">
-				    <div class="card">
+				    <div class="card-1">
                         <div class="card-body-1">
 						    <div class="card-body-2">
 					            <img src="web-assets/test/test-5.jpg">
 							</div>	
                             <h5 class="card-title-1">John Larson</h5>
                             <h6 class="card-subtitle-1 pb-3 text-muted text-none">Entrepreneur</h6>
-                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.<i class="icofont-quote-right"></i> </p>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+							veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+							<i class="icofont-quote-right"></i> </p>
+                        </div>
+				    </div>
+				</div>
+                <div class="item">
+				    <div class="card-1">
+                        <div class="card-body-1">
+						    <div class="card-body-2">
+					            <img src="web-assets/test/test-1.jpg">
+							</div>	
+                            <h5 class="card-title-1">Saul Goodman</h5>
+                            <h6 class="card-subtitle-1 pb-3 text-muted text-none">Ceo & Founder</h6>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+							Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+						    <i class="icofont-quote-right"></i> </p>
+                        </div>
+				    </div>
+				</div>
+                <div class="item">
+				    <div class="card-1">
+                        <div class="card-body-1">
+						    <div class="card-body-2">
+					            <img src="web-assets/test/test-2.jpg">
+							</div>	
+                            <h5 class="card-title-1">Sara Wilsson</h5>
+                            <h6 class="card-subtitle-1 pb-3 text-muted text-none">Designer</h6>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+							malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+							<i class="icofont-quote-right"></i> </p>
                         </div>
 				    </div>
 				</div>    
+                <div class="item">
+				    <div class="card-1">
+                        <div class="card-body-1">
+						    <div class="card-body-2">
+					            <img src="web-assets/test/test-3.jpg">
+							</div>	
+                            <h5 class="card-title-1">Jena Karlis</h5>
+                            <h6 class="card-subtitle-1 pb-3 text-muted text-none">Store Owner</h6>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+							tempor labore quem eram duis noster aute amet eram fore quis sint minim. 
+						    <i class="icofont-quote-right"></i> </p>
+                        </div>
+				    </div>
+				</div>   
+                <div class="item">
+				    <div class="card-1">
+                        <div class="card-body-1">
+						    <div class="card-body-2">
+					            <img src="web-assets/test/test-4.jpg">
+							</div>	
+                            <h5 class="card-title-1">Matt Brandon</h5>
+                            <h6 class="card-subtitle-1 pb-3 text-muted text-none">Freelancer</h6>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
+							minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+							<i class="icofont-quote-right"></i> </p>
+                        </div>
+				    </div>
+				</div>
+                <div class="item">
+				    <div class="card-1">
+                        <div class="card-body-1">
+						    <div class="card-body-2">
+					            <img src="web-assets/test/test-5.jpg">
+							</div>	
+                            <h5 class="card-title-1">John Larson</h5>
+                            <h6 class="card-subtitle-1 pb-3 text-muted text-none">Entrepreneur</h6>
+                            <p class="card-text-1 fst-italic"><i class="icofont-quote-left pe-2"></i>
+							Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+							veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+							<i class="icofont-quote-right"></i> </p>
+                        </div>
+				    </div>
+				</div>    				
 			</div>
 		</div>
 	</section>
@@ -250,7 +346,7 @@
 				    <div class="news">
 					    <h2 class="fs-6 fw-bold">Join Our Newsletter</h2>
 						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-					<div class="position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
+					<div class="form position-relative bg-white pt-2 pb-2 ps-2 ms-2 rounded-pill">	
 						<input class="email w-100 h-100 pt-2 pb-2 ps-3 pe-3" >	
 						<button type="button" class="h-100 rounded-pill pt-2 pb-2 ps-3 pe-3 fs-5 position-absolute">Subscribe</button>
                     </div>						
@@ -265,9 +361,8 @@
 	    <div class="container">			
 			<div class="row">
 			    <div class="col-lg-4">
-				    <div class="copyright position-relative">
-					    <p>© Copyright <b>Mentor</b>. All Rights Reserved</p>
-						<p>Designed by</p><a href="BootstrapMade" class="text-decoration-none position-absolute">BootstrapMade</a>
+				    <div class="design">
+					    <p>Designed by</p><a href="Revathi Front End Developer" class="text-decoration-none">Revathi Front End Developer</a>
 					</div>
 				</div>
                 <div class="col-lg-8">
